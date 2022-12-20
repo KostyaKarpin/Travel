@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel agency</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>T</span>ravel</a>
+
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="index.html">book</a>
+            <a href="index.html">packages</a>
+            <a href="index.html">services</a>
+            <a href="index.html">gallery</a>
+            <a href="contact.html">contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+
+        <div class="login-form-container">
+            <i class="fas fa-times" id="form-close"></i>
+            <form action="">
+                <h3>login</h3>
+                <input type="email" class="box" placeholder="enter your email">
+                <input type="password" class="box" placeholder="enter your password">
+                <input type="submit" value="login now" class="btn">
+                <input type="checkbox" id="remember">
+                <label for="remember">remember me</label>
+                <p>forget password? <a href="#">click here</a></p>
+                <p>don't have any account? <a href="#">register now</a></p>
+            </form>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3 class="title">about our company</h3>
+        </div>
+        <div class="background-container">
+            <img src="img/Beach.jpg" id="background-image">
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="image">
+            <img src="img/About.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <span>welcome to our tour agency</span>
+            <h3>we make your vacantion much happier</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et magni rerum esse at minus ipsum sit, corporis
+                veniam quasi. Quis!</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea recusandae dolorum illo deserunt voluptatum
+                voluptatibus rem dicta veniam. Consequuntur dolore maxime velit aperiam beatae dolor?</p>
+            <a href="#" class="btn">read more</a>    
+        </div>
+    </section>
+
+    <section class="review" id="review">
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/rev.jpg" alt="">
+                        <h3>Amaru Boris</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis sed iste ea vero eligendi unde praesentium libero maxime, autem facilis culpa labore laboriosam accusantium sint sequi, eum aperiam modi!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/rev.jpg" alt="">
+                        <h3>Bryanna Orpheus</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis sed iste ea vero eligendi unde praesentium libero maxime, autem facilis culpa labore laboriosam accusantium sint sequi, eum aperiam modi!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/rev.jpg" alt="">
+                        <h3>Jacinto Finn</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis sed iste ea vero eligendi unde praesentium libero maxime, autem facilis culpa labore laboriosam accusantium sint sequi, eum aperiam modi!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/rev.jpg" alt="">
+                        <h3>Wazo Merdan</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis sed iste ea vero eligendi unde praesentium libero maxime, autem facilis culpa labore laboriosam accusantium sint sequi, eum aperiam modi!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>about us</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil quam cupiditate error, rerum
+                    molestiae dolorem totam cumque! Aut, magni quo.</p>
+            </div>
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="#">india</a>
+                <a href="#">USA</a>
+                <a href="#">Japan</a>
+                <a href="#">France</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
